@@ -34,6 +34,13 @@ function App() {
           </Button>
         </Stack>
 
+        <div>
+          <p>
+            Take control of your finances by creating custom categories and
+            seamlessly monitoring your expenditures. 
+          </p>
+        </div>
+
         <div
           style={{
             display: "grid",
@@ -62,7 +69,9 @@ function App() {
           })}
           <UncategorizedBudgetCard
             onAddExpenseClick={openAddExpenseModal}
-            onViewExpensesClick={() => setViewExpenseModalBudgetId(UNCATEGORIZED_BUDGET_ID)}
+            onViewExpensesClick={() =>
+              setViewExpenseModalBudgetId(UNCATEGORIZED_BUDGET_ID)
+            }
           />
           <TotalBudgetCard />
         </div>
