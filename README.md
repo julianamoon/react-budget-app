@@ -12,3 +12,4 @@ Keep track of your budget by categories with this amazing and quick minimalistic
 ## Made With
 
 ReactJS<br/>
+Web Dev Simplified Video (How To Create A Budget App With React)
